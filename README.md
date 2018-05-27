@@ -1,9 +1,13 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This is a sample azure funtion to authenticate to another Azure AD protected api   
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
+TODO: Do to azure AD tenant
+1.	Get **tenantId** from the Azure AD tenant -> properties
+
+![](Images/promo.png)
+
+1.  In App Registration -> create a new native client
 2.	Software dependencies
 3.	Latest releases
 4.	API references
