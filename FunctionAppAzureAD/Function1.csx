@@ -37,12 +37,12 @@ namespace FunctionAppAzureAD
             
 
             string resourceId = "https://shridemo.onmicrosoft.com/512ea907-63b5-413f-8ade-8c8e83d5d06d";
-            string tenantId = "8bb85694-c435-4384-b6cd-3eabc7066bf7";
-            string tenant = "shridemo.onmicrosoft.com";
+            string tenantId = "{directory ID from Azure AD}";
+            string tenant = "{Azure AD tenant name eg: onmicrosoft.com}";
             string authString = String.Empty;
-            string upn = "simulateddevice@shridemo.onmicrosoft.com";
-            string clientId = "97cc5195-c220-47b9-ab7c-5c082975eef2";
-            string clientSecret = "GQ/F+bFwfm6zJZGiEXcOQ7/QNkOd/Wki2lSXVzmJs30=";
+            string upn = "{username of an Azure AD registered user}";
+            string clientId = "{Application ID of the Native App}";
+            string clientSecret = "{Application Secret of the Native App}";
             string aadInstance = "https://login.microsoftonline.com/{0}";
 
             UserPasswordCredential userPasswordCredential = new UserPasswordCredential(upn, "Offsite@123");
